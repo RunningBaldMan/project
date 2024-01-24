@@ -1,8 +1,10 @@
-package project;
+package project.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+
+import project.exception.DbException;
 
 public class DbConnection {
 	private static final String SCHEMA = "project";
@@ -19,8 +21,10 @@ public class DbConnection {
 		
 		try {
 			Connection conn = DriverManager.getConnection(url);
+			System.out.println("Connection obtained");
+			return conn;
 		} catch (SQLException e) {
-			
+			throw new DbException(e);
 		}
 
 	}
