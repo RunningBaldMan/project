@@ -45,7 +45,7 @@ public class Revisit {
 		artist.add("Warduna");
 		artist.add("Wu Tang Clan");
 		artist.add("YG");
-		
+		//artist.add("test");
 		
 		String randomArtist = getRandomArtist(artist);
 		
