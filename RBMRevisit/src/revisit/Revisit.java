@@ -16,7 +16,7 @@ public class Revisit {
 		artist.add("Cardi B.");
 		artist.add("Chevelle");
 		artist.add("Chloe x Halle");
-		artist.add("Chris Stapelton");
+		//artist.add("Chris Stapelton");
 		artist.add("Ciara");
 		artist.add("Dimash");
 		artist.add("DJ Khaled");
@@ -27,7 +27,7 @@ public class Revisit {
 		artist.add("J Cole");
 		artist.add("Kalandra");
 		artist.add("Kanye West");
-		artist.add("Kendrick Lamar");
+		//artist.add("Kendrick Lamar");
 		artist.add("Kesha");
 		artist.add("Kind Ink");
 		artist.add("Lana Del Rey");
@@ -45,7 +45,7 @@ public class Revisit {
 		artist.add("Warduna");
 		artist.add("Wu Tang Clan");
 		artist.add("YG");
-		//artist.add("test");
+		
 		
 		String randomArtist = getRandomArtist(artist);
 		
