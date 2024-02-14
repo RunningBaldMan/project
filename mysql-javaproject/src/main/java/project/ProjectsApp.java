@@ -217,8 +217,8 @@ public class ProjectsApp {
 			System.out.println("\nYou do not have an active project.");
 		} else {
 		System.out.println("\n You are viewing: " + curProject);
-		} // end if-else
-	}  //end printOperations
+		} 
+	}  
 	
 	
 	
